@@ -1,6 +1,13 @@
+# macOS
+.DS_Store
+
+# Jekyll generated files
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
 Gemfile.lock
+
+# other
+storage/
