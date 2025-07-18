@@ -10,6 +10,4 @@ header:
 author_profile: true   
 ---
 
-# Welcome to my website!
-
 Just another cross-disciplinary researcher with experimental and computational experience documenting and sharing knowledge. Check back for updates!

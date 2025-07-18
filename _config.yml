@@ -60,6 +60,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site Author
 author:
   name   : "Jaz Sakr"
   avatar : "/assets/images/bio-photo.jpg"
@@ -78,6 +79,7 @@ author:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
+# Site Footer
 footer:
   links:
     - label: "GitHub"
@@ -90,6 +92,7 @@ footer:
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -98,7 +101,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
       comments: true
       share: true
       related: true
@@ -109,6 +111,23 @@ defaults:
     values:
       layout: single
       author_profile: true
+      comments: true
+      share: true
+      related: true
+  # _website
+  - scope:
+      path: ""
+      type: website
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# Collections
+collections:
+  website:
+    output: true
+    permalink: /:collection/:path/
 
 category_archive:
   type: liquid
@@ -117,6 +136,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# Analytics
 analytics:
   provider: "google-gtag"
   google:
