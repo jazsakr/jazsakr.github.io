@@ -13,4 +13,4 @@ author_profile: true
 
 Just another cross-disciplinary researcher with experimental and computational experience documenting and sharing knowledge. Check back for updates!
 
-July 2025: First tutorials uploaded!
+July 2025: First tutorials uploaded! See them [here](https://jazsakr.github.io/website/)

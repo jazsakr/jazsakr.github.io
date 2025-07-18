@@ -63,8 +63,8 @@ plugins:
 # Site Author
 author:
   name   : "Jaz Sakr"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  avatar : "/assets/images/igv-snapshot-thumbnail-2025-06-02.png"
+#  bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -72,12 +72,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jazsakr"
+    - label: "ORCiD"
+      icon: "fa-brands fa-orcid"
+      url: "https://orcid.org/0000-0002-4470-3192"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/jaz_sakr"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -85,12 +85,12 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jazsakr"
+    - label: "ORCiD"
+      icon: "fa-brands fa-orcid"
+      url: "https://orcid.org/0000-0002-4470-3192"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://x.com/jaz_sakr"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 # Defaults
 defaults:
@@ -120,7 +120,7 @@ defaults:
       type: website
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
 
 # Collections

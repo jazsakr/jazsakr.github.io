@@ -107,7 +107,7 @@ Bundle install skipped
 
 If you list the contents of this folder now, you should see: `404.html`, `Gemfile`, `_config.yml`, `_posts`, `about.markdown`, and `index.markdown`
 
-Next we have to edits some files and we can do this quickly using [Nano](https://www.nano-editor.org), a text editor for Unix-like operating systems using a command line interface. We will edit two files by running `nano` followed by the file name. But before we edit any files, we have to know the latest supported version of the `github-pages`gem so we can add the version number into the file we will edit. You can find this version here: [GitHub Pages | Dependency versions](https://pages.github.com/versions/).
+Next we have to edits some files and we can do this quickly using [Nano](https://www.nano-editor.org), a text editor for Unix-like operating systems using a command line interface. We will edit two files by running `nano` followed by the file name. But before we edit any files, we have to know the latest supported version of the `github-pages`gem so we can add the version number into the file we will edit. You can find this version here: [GitHub Pages - Dependency versions](https://pages.github.com/versions/).
 
 1. Edit the `Gemfile` file by:
 	- Comment out the line the starts with `gem "jekyll",` by adding the `#` at the very beginning of the line. 
