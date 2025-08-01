@@ -37,14 +37,17 @@ remote_theme: mmistakes/minimal-mistakes
 
 # Outputting
 permalink: /:categories/:title/
-#paginate: 5 # amount of posts to show
-#paginate_path: /page:num/
+
+paginate: 7 # amount of posts to show
+paginate_path: /recent/page:num/
 #timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Reading files
 include:
   - _pages
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+enable_copy_code_button: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
