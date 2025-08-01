@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Posts by Category"
+    url: /categories-archive/
   - title: "Recent Posts"
     url: /recent/
   - title: "Website Setup"

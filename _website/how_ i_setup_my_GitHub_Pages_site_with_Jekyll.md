@@ -1,6 +1,8 @@
 ---
 title:  "How I set up my GitHub Pages site with Jekyll" 
 excerpt: "This tutorial includes installing prerequisites, creating a GitHub repo and adding new Jekyll theme."
+categories:
+  - website
 tags:
   - tutorial
 toc: true
