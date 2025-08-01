@@ -4,6 +4,7 @@ excerpt: "This tutorial includes installing prerequisites, creating a GitHub rep
 tags:
   - tutorial
 toc: true
+toc_sticky: true
 number: 1
 ---
 
