@@ -1,6 +1,7 @@
 ---
 title:  "Customize Zsh shell prompt" 
 excerpt: "This tutorial includes how to customize the command line prompt and colorize the output of the `ls` command."
+date: 2025-07-30
 categories:
   - blog
 tags:
