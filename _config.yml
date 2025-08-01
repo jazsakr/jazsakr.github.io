@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Jaz
-email:
+email: jazsakr@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -23,6 +23,13 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+
+# thumbnail for website
+teaser: /assets/images/igv-snapshot-thumbnail-2025-06-02.png
+
+# add logo to navigation menu
+masthead_title: "Home"
+logo: "/assets/images/house_icon_from_font_awesome.png"
 
 # Build settings
 markdown: kramdown
@@ -64,7 +71,7 @@ plugins:
 author:
   name   : "Jaz Sakr"
   avatar : "/assets/images/igv-snapshot-thumbnail-2025-06-02.png"
-#  bio    : "My awesome biography constrained to a sentence or two goes here."
+#  bio    : "jazsakr@gmail.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

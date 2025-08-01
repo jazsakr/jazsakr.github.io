@@ -11,7 +11,7 @@ This is how I set up this website using GitHub pages and the Minimal Mistakes Je
 
 SIMPLE tutorial version: [(not ready, check back later)](){: .btn .btn--danger}
 
-## Before you start
+## **Before you start**
 
 I would add a SSH key to your GitHub account first, then build the site. This is optional but that way you don't have to enter your password every time you make changes to your remote GitHub repository (“repo” for short). A "[remote repository](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)" just means the place on GitHub (not your local computer) where your stuff is. Your stuff is saved in a folder (called a “repository”) and the location of this folder on GitHub is designated by an address.
 
@@ -32,11 +32,11 @@ To run `git` commands without typing a password every time:
 3. Test connection (on the command line) by running
 `ssh -T git@github.com` and you will see something like this: `Hi your-username! You've successfully authenticated, but GitHub does not provide shell access.`
 
-## Create a GitHub Pages site with Jekyll
+## **Create a GitHub Pages site with Jekyll**
 
 To do this, we will follow this [tutorial from GitHub Docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-a-repository-for-your-site).
 
-### Install prerequisites
+### **Install prerequisites**
 
 GitHub lists some [prerequisites](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#prerequisites) we need before we can use Jekyll. 
 
@@ -72,13 +72,13 @@ Install Jekyll by running:
 gem install jekyll
 ```
 
-### Create a repository
+### **Create a repository**
 
 Since we are using Github pages to create the site, we need to have a GitHub repository. Create a new repository on the GitHub website by clicking "New repository" after logging in and call it whatever you want (for example `jazsakr_website.github.io`) under “Repository name”.
 
 Leave everything else at the defaults and click “Create repository”.
 
-### Create your site
+### **Create your site**
 
 Next we are going to make the site, but first we have to have a local copy of the repository we created for the site. First, in the terminal, go to the folder where you want to keep the local copy. I have a folder called `GitHub` in my home directory were I keep all my local copies of my GitHub repos.
 
@@ -126,7 +126,7 @@ A lot of messages will be printed to the terminal and will end with some “Post
 	- Add another line for`.DS_Store`
 	- Save the `.gitignore`
 
-### Commit, build, and deployment
+### **Commit, build, and deployment**
 
 Since these changes were made locally, we need to update the remote copy of the repo on the GitHub website and begin version control using git, a version control system. We will do this by adding and committing what edits we just did before pushing them to the GitHub website. An **add** marks the things where the changes will be tracked (in this case, all the files that were generated after `jekyll new --skip-bundle .`). A **commit** captures these **changes** and therefore tracks the **differences** between the current version of the repo and the previous one (in this case, we are establishing the first version of our files). A **push** sends these commits to the GitHub website.
 
@@ -192,7 +192,7 @@ The last few steps will be done in the web browser on the GitHub website.
 
 Now your GitHub pages website is live!
 
-## Add Minimal Mistakes Jekyll theme
+## **Add Minimal Mistakes Jekyll theme**
 
 The Jekyll theme that I am using is called [Minimal Mistakes ](https://mmistakes.github.io/minimal-mistakes/) and we will follow this [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/). According to [Adding a theme to your GitHub Pages site using Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll), we need to follow the “[Remote theme method](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remote-theme-method)” and “[Starting from `jekyll new`](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#starting-from-jekyll-new)” sections.
 
@@ -214,7 +214,7 @@ The developers of the theme made a super simple starter GitHub repo called “[M
 
 Overall, to add this theme, we will need to edit a few files in the repo. I like to do this through the [GitHub Desktop](https://github.com/apps/desktop) rather than continuing through the terminal. 
 
-### Add repo to GitHub Desktop
+### **Add repo to GitHub Desktop**
 
 First download and install GitHub Desktop. Next we need to add the GitHub pages site repo. 
 
@@ -225,7 +225,7 @@ Since we have a local copy of the repo:
 
 After adding the repo, it should say “No local changes“. This will change when we start editing files.  Now we can edit the files using any text editor and GitHub Desktop will track the changes. 
 
-### Edit files
+### **Edit files**
 
 We can use any text editor. We can use the preinstalled TextEditor on macOS. If a file does not open with any text editor by default, you could select one by following the prompts or right click on the file and choose the software using “Open with”.
 
@@ -256,7 +256,7 @@ categories: jekyll update
 
 After we finish all the editing we need to do, we have to commit and push the changes as we did earlier when we created the site. This time we will be doing it through GitHub Desktop. Now if you go back to the Desktop app, you should see the exact edits per file and the edit status of all files listed.  
 
-1. Fill in the “Summary” section on the left-hand side with a simple description of the changes. In this case, it can be called “add Minimal Mistakes theme“.  Now 
+1. Fill in the “Summary” section on the left-hand side with a simple description of the changes. In this case, it can be called “add Minimal Mistakes theme“.
 2. Click the commit button at the bottom of the panel on the left-hand side (will say something like “Commit 6 files to main“)
 3. Click “Push to origin” toward the right-hand side. When it is done, it will go back to displaying “No local changes”
 
