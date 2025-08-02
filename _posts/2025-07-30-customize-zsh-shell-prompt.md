@@ -3,7 +3,7 @@ title:  "Customize Zsh shell prompt"
 excerpt: "This tutorial includes how to customize the command line prompt and colorize the output of the `ls` command."
 date: 2025-07-30
 categories:
-  - blog
+  - macOS
 tags:
   - tutorial
   - macOS
@@ -13,11 +13,11 @@ When you begin to use the terminal a lot, you’ll find that customizing your co
 
 For example, on a Mac, instead of the default looking a little something like this:
 
-{% raw %}<img src="{{ https://jazsakr.github.io }}{{ site.baseurl }}/assets/images/posts/2025-07-30_customize_zsh_shell_prompt_1.png" alt="">{% endraw %}
+![default macOS command prompt](/assets/images/posts/2025-07-30-customize-zsh-shell-prompt-1.png)
 
 I customized mine to look like this:
 
-{% raw %}<img src="{{ https://jazsakr.github.io }}{{ site.baseurl }}/assets/images/posts/2025-07-30_customize_zsh_shell_prompt_2.png" alt="">{% endraw %}
+![customized macOS command prompt](/assets/images/posts/2025-07-30-customize-zsh-shell-prompt-2.png)
 
 We will do this by editing the `.zshrc` file. The next two sections will explain what we will be adding to this file. 
 

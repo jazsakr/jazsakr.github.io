@@ -2,6 +2,8 @@
 main:
   - title: "Posts by Category"
     url: /categories/
+  - title: "Posts by Tag"
+    url: /tags/
   - title: "Recent Posts"
     url: /recent/
   - title: "Website Setup"
