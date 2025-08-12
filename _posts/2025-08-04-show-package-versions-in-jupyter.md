@@ -38,7 +38,7 @@ For simplicity, we can collapse these cells and just see the print output!
 
 ![load packages](/assets/images/posts/2025-08-04-show-package-versions-in-jupyter-4.png)
 
-## Template
+## Copy and Paste
 
 You can copy and paste this code block and update it with the packages you are using!
 
