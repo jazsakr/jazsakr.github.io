@@ -13,6 +13,6 @@ author_profile: true
 Just another cross-disciplinary researcher with experimental and computational experience documenting and sharing knowledge. Check back for [updates](https://jazsakr.github.io/recent/)!
 
 Check this out!
-- [Gallery of plots](https://jazsakr.github.io/pages/plot-gallery.md)
+- [Gallery of plots](https://jazsakr.github.io/plot-gallery/plot-gallery.md)
 
 Want to create your own website similar to this one? Check out this [tutorial](https://jazsakr.github.io/website/).

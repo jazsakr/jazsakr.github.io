@@ -1,6 +1,8 @@
 ---
 title:  "Plot code" 
 excerpt: "Gallery of plots with links to the plot code."
+permalink: /plot-gallery/
+author_profile: true
 date: 2025-09-11
 categories:
   - plots
