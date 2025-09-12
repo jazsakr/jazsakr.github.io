@@ -3,7 +3,7 @@ title:  "Plot Venn diagram using venn3"
 excerpt: "Python code to plot a Venn diagram using venn3 package from matplotlib."
 date: 2025-09-11
 header:
-  teaser: 2025-09-11-plot-venn-using-venn3-thumbnail.png
+  teaser: /assets/images/posts/2025-09-11-plot-venn-using-venn3-thumbnail.png
 categories:
   - plots
 tags:
