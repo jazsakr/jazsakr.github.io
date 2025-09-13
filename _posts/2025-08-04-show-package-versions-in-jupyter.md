@@ -2,6 +2,8 @@
 title:  "Show package versions in Jupyter" 
 excerpt: "How to print package versions in the current environment in Jupyter"
 date: 2025-08-04
+header:
+  teaser: /assets/images/posts/2025-08-04-show-package-versions-in-jupyter-thumbnail.png
 categories:
   - bioinformatics
 tags:
