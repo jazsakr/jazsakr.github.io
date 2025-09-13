@@ -19,6 +19,10 @@ import matplotlib_venn
 from matplotlib_venn import venn3
 print("matplotlib_venn", matplotlib_venn.__version__)
 
+fig_title="Overlap of Group 1, Group 2, and Group 3"
+path="/path/to/the/directory/for/plots"
+fig_name=f'{path}/venn.png'
+
 only_group1 = 648626
 only_group2 = 18515
 only_group3 = 496281
@@ -41,7 +45,10 @@ for label in venn.subset_labels:
         label.set_fontsize(12)
 
 # Add a plot title
-plt.title("Overlap of Group 1, Group 2, and Group 3", fontsize=12)
+plt.title(fig_title, fontsize=12)
+
+# Save the plot
+plt.savefig(fig_name, bbox_inches = 'tight', dpi=300)
 
 # Display the Venn diagram
 plt.show()
