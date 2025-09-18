@@ -21,6 +21,8 @@ I customized mine to look like this:
 
 We will do this by editing the `.zshrc` file. The next two sections will explain what we will be adding to this file. 
 
+---
+
 ## **Customize the Zsh prompt**
 
 The default Zsh prompt on macOS is `%n@%m %1~ %`, where:
@@ -31,6 +33,9 @@ The default Zsh prompt on macOS is `%n@%m %1~ %`, where:
 | `%m`  | Hostname                         |
 | `%1~` | Current working directory        |
 | `%`   | The standard Zsh prompt symbol |
+
+
+<br> 
 
 Notice the space after the Hostname and current working directory (fancy way of saying the folder we are currently in). There are also no text colors.  
 
@@ -60,8 +65,20 @@ where:
 | ` $`        | A space and then a dollar sign (standard prompt symbol)      |
 | `%f`        | Reset color                                                  |
 
-
+<br>
 Make sure you delete any other prompt customization in your `.zshrc` (like `PROMPT='%n@computer %1~ %# '` for example.)
+
+Here are some other colors you can choose from!
+
+
+
+![250 colors](/assets/images/color-250-by-plasmarob.png)
+Image Credit: by [Plasmarob](https://unix.stackexchange.com/users/172429/plasmarob) from this [post](https://unix.stackexchange.com/a/285956).
+
+For a full 256 colors cheat sheet with displayed color, Xterm Name, Xterm Number, HEX, RGB and HSL codes check out this [link](https://www.ditig.com/256-colors-cheat-sheet).
+
+
+---
 
 ## **Colorize `ls` output**
 
@@ -79,6 +96,8 @@ Save your changes to the `.zshrc` file. Then run:
 source .zshrc
 ```
 This reloads your Zsh configuration file and apply the changes. Now your prompt should look the way you customized it. 
+
+---
 
 ## **In summary**
 
