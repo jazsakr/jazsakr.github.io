@@ -6,7 +6,7 @@ permalink: /random-tip/
 <div class="tip-generator">
   <h2>Here's a random tip for you:</h2>
   <p id="tip-container" class="tip-text loader8"></p>
-  <button id="new-tip-button" class="btn btn--success" disabled>Get Another Tip</button>
+  <button id="new-tip-button" class="btn btn--primary" disabled>Get Another Tip</button>
 </div>
 
 <style>
