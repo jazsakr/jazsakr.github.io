@@ -28,25 +28,26 @@ permalink: /random-tip/
 </style>
 
 <script>
-  // 1. Get the tips from Jekyll's data file into a JavaScript array.
-  // The 'jsonify' filter correctly formats the data for JavaScript.
-  const tips = {{ site.data.tips | jsonify }};
+  // This listener waits for the entire HTML document to be loaded and ready.
+  document.addEventListener('DOMContentLoaded', () => {
 
-  // 2. Get references to the HTML elements we need to interact with.
-  const tipContainer = document.getElementById('tip-container');
-  const newTipButton = document.getElementById('new-tip-button');
+    // 1. Get the tips from Jekyll's data file.
+    const tips = {{ site.data.tips | jsonify }};
 
-  // 3. A function to pick and display a random tip.
-  function displayRandomTip() {
-    // Generate a random index number based on the array's length.
-    const randomIndex = Math.floor(Math.random() * tips.length);
-    // Set the text of our container to the randomly selected tip.
-    tipContainer.textContent = tips[randomIndex];
-  }
+    // 2. Get references to the HTML elements.
+    const tipContainer = document.getElementById('tip-container');
+    const newTipButton = document.getElementById('new-tip-button');
 
-  // 4. Add a 'click' event listener to the button.
-  newTipButton.addEventListener('click', displayRandomTip);
+    // 3. A function to pick and display a random tip.
+    function displayRandomTip() {
+      const randomIndex = Math.floor(Math.random() * tips.length);
+      tipContainer.textContent = tips[randomIndex];
+    }
 
-  // 5. Display the first random tip when the page loads.
-  document.addEventListener('DOMContentLoaded', displayRandomTip);
+    // 4. Add the 'click' event listener to the button.
+    newTipButton.addEventListener('click', displayRandomTip);
+
+    // 5. Display the first random tip when the page loads.
+    displayRandomTip();
+  });
 </script>
