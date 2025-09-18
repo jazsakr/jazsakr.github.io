@@ -10,9 +10,12 @@ header:
 author_profile: true   
 ---
 
-Just another cross-disciplinary researcher with experimental and computational experience documenting and sharing knowledge. Check back for [updates](https://jazsakr.github.io/recent/)!
+Just another cross-disciplinary researcher with experimental and computational experience documenting and sharing knowledge. 
 
-Check this out!
+Check back for [updates](https://jazsakr.github.io/recent/)!
+
+Check these out!
+- [Random tip](https://jazsakr.github.io/random-tip/)
 - [Gallery of plots](https://jazsakr.github.io/plot-gallery/)
 
 Want to create your own website similar to this one? Check out this [tutorial](https://jazsakr.github.io/website/).
