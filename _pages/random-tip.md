@@ -41,13 +41,13 @@ permalink: /random-tip/
     // 3. A function to pick and display a random tip.
     function displayRandomTip() {
       const randomIndex = Math.floor(Math.random() * tips.length);
-      tipContainer.textContent = tips[randomIndex];
+      tipContainer.innerHTML = tips[randomIndex];
     }
 
     // 4. Add the 'click' event listener to the button.
     newTipButton.addEventListener('click', displayRandomTip);
 
     // 5. Display the first random tip when the page loads.
-    displayRandomTip();
+    setTimeout(displayRandomTip, 3000);
   });
 </script>
