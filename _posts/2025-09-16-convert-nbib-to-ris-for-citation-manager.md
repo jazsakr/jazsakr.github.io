@@ -7,7 +7,7 @@ header:
 categories:
   - writing
 tags:
-  - tip
+  - tutorial
 ---
 
 Sometimes we can only download a citation from [PubMed](https://pubmed.ncbi.nlm.nih.gov/about/) but it cannot be readily imported into some of the common citation mangers because it is a [`.nbib`](https://pubmed.ncbi.nlm.nih.gov/help/#cite) file, a format created by the National Library of Medicine. Common citation managers import [RIS (Research Information Systems)](https://en.wikipedia.org/wiki/RIS_(file_format)) files. Therefore we need to convert `.nbib` to `.ris`. 

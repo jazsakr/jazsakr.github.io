@@ -61,7 +61,7 @@ where:
 | `%F{11}`    | Start color #11 (usually light yellow, depends on terminal)  |
 | `%.'`       | Current working directory, abbreviated with `~` for home     |
 | `%f`        | Reset color                                                  |
-| `%F{237}`   | Start color #237 (usually light yellow, depends on terminal) |
+| `%F{237}`   | Start color #237 (usually light grey, depends on terminal) |
 | ` $`        | A space and then a dollar sign (standard prompt symbol)      |
 | `%f`        | Reset color                                                  |
 

@@ -74,7 +74,7 @@ permalink: /random-tip/
       tipContainer.classList.remove('loader8');
       displayRandomTip();
       newTipButton.disabled = false;
-    }, 3500); // change delay if you want longer/shorter "loading..."
+    }, 3000); // change delay if you want longer/shorter "loading..."
 
     // 5. Enable button click for new tips.
     newTipButton.addEventListener('click', displayRandomTip);
