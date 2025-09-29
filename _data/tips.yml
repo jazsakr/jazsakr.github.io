@@ -3,3 +3,5 @@
 - "If you are working from a Mac, install <a href='https://brew.sh'>Homebrew</a>, the macOS package manager, to easily install software from the command line."
 - Are you new to an academic field? Read a review paper! It often provides an introduction, summarizes the current knowledge in the field, and sometimes provides a brief history and future perspectives. Here is an example, open access <a href='https://www.mdpi.com/2079-7737/12/2/152'>review paper</a>.
 - Make sure to add comments to your code explaining what it does. Not only will it help others understand your code when you share it, but also yourself when you revisit code you haven't look at in a while!
+- "Use a citation manager to keep track, organize and cite your references. I use <a href='https://www.zotero.org/'>Zotero</a>, which is free and open source."
+- "Create a shortcut for connecting to your remote server through terminal (<a href='https://jazsakr.github.io/'>example coming soon</a>)."
