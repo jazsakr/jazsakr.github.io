@@ -9,17 +9,18 @@ header:
   caption: "DNA methylation (5mC & 5hmC) in IGV"
 author_profile: true
 feature_row:
-  - image_path: /assets/images/website_feature_row_random_tip_generator.jpg
-    alt: "placeholder image 1"
+  - image_path: /assets/images/website_feature_row_random_tip_generator.png
+    alt: "Screenshot of Random Tip Generator"
     title: "Random tip"
     excerpt: "Get a random tip you might have not thought about!"
+    url: "https://jazsakr.github.io/random-tip/"
     btn_label: "Click here"
     btn_class: "btn--primary"
-  - image_path: /assets/images/website_feature_row_obsidian_vault.jpg
+  - image_path: /assets/images/website_feature_row_obsidian_vault.png
     alt: "Image of a Obsidian vault folder for PhD research"
     title: "Obsidian for PhD research"
     excerpt: "Example of how you can use Obsidian notetaking app for your PhD (or other research)."
-    url: "https://jazsakr.github.io"
+    url: "https://jazsakr.github.io/"
     btn_label: "(Coming soon)"
     btn_class: "btn--primary"
 ---
