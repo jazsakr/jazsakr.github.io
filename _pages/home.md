@@ -28,7 +28,7 @@ Just another cross-disciplinary researcher with experimental and computational e
 
 Check back for [updates](https://jazsakr.github.io/recent/)!
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row" type="center" %}
 
 Check these out!
 - [Gallery of plots](https://jazsakr.github.io/plot-gallery/)
