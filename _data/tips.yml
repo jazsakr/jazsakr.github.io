@@ -4,5 +4,5 @@
 - Are you new to an academic field? Read a review paper! It often provides an introduction, summarizes the current knowledge in the field, and sometimes provides a brief history and future perspectives. Here is an example, open access <a href='https://www.mdpi.com/2079-7737/12/2/152'>review paper</a>.
 - Make sure to add comments to your code explaining what it does. Not only will it help others understand your code when you share it, but also yourself when you revisit code you haven't look at in a while!
 - "Use a citation manager to keep track, organize and cite your references. I use <a href='https://www.zotero.org/'>Zotero</a>, which is free and open source."
-- "Create a shortcut for connecting to your remote server through terminal (<a href='https://jazsakr.github.io/macOS/2025-09-29-shortcut-ssh-through-terminal/'>read more</a>)."
+- "Create a shortcut for connecting to your remote server through terminal (<a href='https://jazsakr.github.io/macos/shortcut-ssh-through-terminal/'>read more</a>)."
 - "Sequencing tip: Before starting each sequencing run, check to make sure there is enough disk space available to store the data! Depending on the sequencing platform and run type, you may need to check even before you build the library."
