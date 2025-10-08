@@ -7,3 +7,5 @@
 - "Create a shortcut for connecting to your remote server through terminal (<a href='https://jazsakr.github.io/macos/shortcut-ssh-through-terminal/'>read more</a>)."
 - "Sequencing tip: Before starting each sequencing run, check to make sure there is enough disk space available to store the data! Depending on the sequencing platform and run type, you may need to check even before you build the library."
 - "Keep track of all your terminal shortcuts by creating a shortcut to show all of them (<a href='https://jazsakr.github.io/macos/shortcut-for-terminal-shortcuts/'>read more</a>)."
+- Keep as many variables as possible at the top of your code so that not only are they easy to find, but you only have to edit them once and it is consistent throughout your code.
+- Keep track of package versions used in your analysis by saving them into a log file when you run your scripts. 
