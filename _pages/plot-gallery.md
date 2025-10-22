@@ -20,11 +20,11 @@ gallery_boxplot:
     alt: "A grouped bar plot with two subplots"
 ---
 
-## Venn diagrams
+Venn diagrams
 
 {% include gallery id="gallery_venn" caption="Click on the Venn diagram plot to get the code." %}
 
 
-## Bar plot
+Bar plot
 
 {% include gallery id="gallery_boxplot" caption="Click on the bar plot to get the code." %}
