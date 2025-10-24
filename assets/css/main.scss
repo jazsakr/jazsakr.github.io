@@ -9,22 +9,22 @@ search: false
 
 /* button colors */ 
 // add custom colors here
-$buttoncolors:
-(primary, $primary-color),
-(inverse, #fff),
-(light-outline, transparent),
-(success, $success-color),
-(warning, $warning-color),
-(danger, $danger-color),
-(info, $info-color),
-(obsidian, #A88EF7),
-/* brands */
-(bluesky, $bluesky-color),
-(facebook, $facebook-color),
-(linkedin, $linkedin-color),
-(mastodon, $mastodon-color),
-(twitter, $twitter-color),
-(x, $x-color);
+$buttoncolors: (
+  primary: $primary-color,
+  inverse: #fff,
+  light-outline: transparent,
+  success: $success-color,
+  warning: $warning-color,
+  danger: $danger-color,
+  info: $info-color,
+  obsidian: #A88EF7,
+  bluesky: $bluesky-color,
+  facebook: $facebook-color,
+  linkedin: $linkedin-color,
+  mastodon: $mastodon-color,
+  twitter: $twitter-color,
+  x: $x-color
+);
 
 /* Obsidian notice */
 .notice--obsidian,
