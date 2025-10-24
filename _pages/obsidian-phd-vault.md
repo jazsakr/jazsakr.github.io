@@ -8,7 +8,7 @@ date: 2025-10-24
 Here is a quick preview of how this vault is set up.
 
 Download an example Obsidian PhD vault from [this GitHub repo](https://github.com/jazsakr/phd_vault).
-{: .notice--obsidian}
+{: .notice}
 
 
 ## Tracking Productivity 
