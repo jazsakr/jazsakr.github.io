@@ -10,9 +10,10 @@ tags:
   - bioinformatics
   - coding
   - plots
+  - python
 ---
 
-![Plot of a Venn diagram made using the venn3 package](/assets/images/posts/2025-10-21-double-barplot-example1.png)
+![Plot of a a grouped bar plot with two subplots using matplotlib and seaborn.](/assets/images/posts/2025-10-21-double-barplot-example1.png)
 
 ```python
 import time
@@ -95,7 +96,7 @@ plt.ylim(0, 5500000)
 plt.tight_layout(rect=[0, 0, 0.9, 1]) # rect=[left, bottom, right, top]
 
 # Save the plot
-plt.savefig(fig_name, bbox_inches = 'tight', dpi=300)
+plt.savefig(fig_name, bbox_inches = 'tight', format = 'png', dpi=300)
 
 plt.show()
 ```
