@@ -1,7 +1,7 @@
 ---
 title:  "Plot a volcano plot" 
 excerpt: "Python code to plot a volcano plot with two subplots using matplotlib and seaborn."
-date: 2025-10-21
+date: 2025-10-24
 header:
   teaser: /assets/images/posts/2025-10-24-volcano-plot-example1-thumbnail.png
 categories:
@@ -91,7 +91,8 @@ ax.tick_params(axis='both', which='major', labelsize=12)
 plt.title(fig_title, fontsize=16)
 plt.legend(bbox_to_anchor=(1, 0.9), loc='center left',
            title="Legend", title_fontsize=14, fontsize=12, frameon=False) # move legend
-# loc options: 'best', 'upper right', 'upper left', 'lower left', 'lower right', 'right', 'center left', 'center right', 'lower center', 'upper center', 'center'
+# loc options: 'best', 'upper right', 'upper left', 'lower left', 'lower right', 
+# 'right', 'center left', 'center right', 'lower center', 'upper center', 'center'
 
 # draw horizontal and vertical dashed lines
 yline = -np.log10(pvalue)
