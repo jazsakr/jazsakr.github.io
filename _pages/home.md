@@ -20,8 +20,8 @@ feature_row:
     alt: "Image of a Obsidian vault folder for PhD research"
     title: "Obsidian for PhD research"
     excerpt: "Example of how you can use Obsidian notetaking app for your PhD (or other research)."
-    url: "https://jazsakr.github.io/"
-    btn_label: "(Coming soon)"
+    url: "https://jazsakr.github.io/obsidian-phd-vault/"
+    btn_label: "Click here"
     btn_class: "btn--primary"
 ---
 

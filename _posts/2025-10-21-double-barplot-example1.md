@@ -50,7 +50,7 @@ df1_colors = {"untreated": "mediumpurple", "treated": "lightgreen"}
 df2_colors = {"untreated": "indigo", "treated": "darkgreen"}
 
 # Set up the figure and axes
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9, 4), sharey=True)
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9, 5), sharey=True)
 
 # condition 1 plot
 sns.barplot(x="sample", y="count", hue="treatment", data=df1, palette=df1_colors, ax=ax1)
@@ -88,8 +88,8 @@ fig.legend(h1, l1, title="Condition 1", loc='center left', bbox_to_anchor=(0.88,
 fig.legend(h2, l2, title="Condition 2", loc='center left', bbox_to_anchor=(0.88, 0.45), frameon=False, fontsize=14, title_fontsize=14)
 
 # Add a single, centered x-axis label  and title for the entire figure
-fig.supxlabel("Samples", fontsize=16, y=0.07)
-fig.suptitle(fig_title, fontsize=18, y=0.95)
+fig.supxlabel("Samples", fontsize=16, y=0.06)
+fig.suptitle(fig_title, fontsize=20, y=0.95)
 
 # Adjust layout to make space for the legends
 plt.ylim(0, 5500000)
