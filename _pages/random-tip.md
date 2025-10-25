@@ -4,7 +4,7 @@ permalink: /random-tip/
 ---
 
 <div class="tip-generator">
-  <h2>Here's a random tip for you:</h2>
+  <h2>Here's a random tip for you (out of <span id="tip-count">...</span>):</h2>
   <p id="tip-container" class="tip-text loader8"></p>
   <button id="new-tip-button" class="btn btn--primary" disabled>Get Another Tip</button>
 </div>
@@ -61,12 +61,16 @@ permalink: /random-tip/
     // 2. Get references to elements.
     const tipContainer = document.getElementById('tip-container');
     const newTipButton = document.getElementById('new-tip-button');
+    // Get the new tip-count element
+    const tipCountElement = document.getElementById('tip-count');
+    // Set the tip count text
+    tipCountElement.textContent = tips.length;
 
     // 3. Function to display a random tip.
     function displayRandomTip() {
       const randomIndex = Math.floor(Math.random() * tips.length);
       // Use .innerHTML to correctly render any HTML (like links) in the tips.
-      tipContainer.innerHTML = tips[randomIndex];
+      tipContainer.innerHTML = '<span>' + tips[randomIndex] + '</span>';
     }
 
     // 4. Simulate loading, then show first tip.

@@ -9,5 +9,8 @@ _site
 vendor
 Gemfile.lock
 
+# vscode files
+.vscode/
+
 # other
 jazsakr.github.io_storage/
