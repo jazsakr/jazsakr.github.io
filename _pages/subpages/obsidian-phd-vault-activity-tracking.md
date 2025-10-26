@@ -54,7 +54,7 @@ When switching to reading view from editing view, the metadata is still visible.
 ## What is Daily notes?
 [Daily notes](https://help.obsidian.md/plugins/daily-notes) is a [core plugin](https://help.obsidian.md/plugins) that opens a note based on the date. It can be used to create journal, logs, notebook. For our PhD vault, we will be using it like a digital personal lab notebook. Our [daily notes will be created from a template](https://help.obsidian.md/plugins/daily-notes#Create+a+daily+note+from+template) so it will automatically include the metadata we document on a daily basis. 
 
-# Heatmap-like visualization 
+# Heatmap like visualization 
 
 This vault visualizes activity using the concept of a heatmap in a calender grid. A [heatmap](https://en.wikipedia.org/wiki/Heat_map) is a map or a grid that represents values using color intensity or color schemes. So combining the two results in a calender with a color scheme representing the activity we are tracking. This visualization is done with an Obsidian community plugin. At first `HeatmapCalender` [plugin](https://github.com/Richardsl/heatmap-calendar-obsidian) was used but then `Heatmap Tracker` [plugin](https://github.com/mokkiebear/heatmap-tracker) was recently implemented for these additional functions (as of October 2025):
 - Separating the months for more convenient visualization

@@ -5,6 +5,8 @@ permalink: /obsidian-phd-vault/
 show_date: true
 date: 2025-10-24
 last_modified_at: 2025-10-25
+header:
+  teaser: /assets/images/website_feature_row_obsidian_vault.png
 ---
 
 Here is a quick preview of how this vault is set up.
