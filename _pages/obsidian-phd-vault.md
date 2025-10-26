@@ -2,6 +2,7 @@
 title:  "Obsidian for PhD research" 
 excerpt: "Example of how you can use Obsidian notetaking app for your PhD (or other research)."
 permalink: /obsidian-phd-vault/
+show_date: true
 date: 2025-10-24
 last_modified_at: 2025-10-25
 ---
@@ -16,4 +17,4 @@ Download an example Obsidian PhD vault from [this GitHub repo](https://github.co
 
 ![Preview of a productivity log in an Obsidian PhD vault](/assets/images/preview/obsidian-phd-vault-preview-productivity-log1.png)
 
-[Read more here!](){: .btn .btn--danger}
+[Read more here!](https://jazsakr.github.io/obsidian-phd-vault/activity-tracking/){: .btn .btn--success}
