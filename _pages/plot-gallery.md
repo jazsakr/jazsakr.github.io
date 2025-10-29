@@ -23,18 +23,21 @@ gallery_volcano:
   - url: https://jazsakr.github.io/plots/volcano-plot-example1/
     image_path: /assets/images/posts/2025-10-24-volcano-plot-example1.png
     alt: "A volcano plot with disease genes highlighted"
+  - url: https://jazsakr.github.io/plots/volcano-plot-example2/
+    image_path: /assets/images/posts/2025-10-28-volcano-plot-example2.png
+    alt: "A volcano plot with up and down regulated genes highlighted"
 ---
 
-Venn diagrams
+**Venn diagrams**
 
 {% include gallery id="gallery_venn" caption="Click on the Venn diagram plot to get the code." %}
 
 
-Bar plot
+**Bar plot**
 
 {% include gallery id="gallery_boxplot" caption="Click on the bar plot to get the code." %}
 
 
-Volcano plot
+**Volcano plot**
 
 {% include gallery id="gallery_volcano" caption="Click on the volcano plot to get the code." %}

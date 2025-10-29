@@ -32,7 +32,7 @@ tags:
 ---
 ```
 
-### Obsidian's frontmatter
+## Obsidian's frontmatter
 
 Obsidian is basically a folder of markdown files (and hidden folders of fancy things that make up the Obsidian functionality and related plug-ins). Obsidian supports these [properties](https://help.obsidian.md/properties) in the [frontmatter of its notes](https://help.obsidian.md/glossary#Frontmatter) (as of October 2025):
 - **[Text](https://help.obsidian.md/properties#Text)**
@@ -51,7 +51,7 @@ When switching to reading view from editing view, the metadata is still visible.
 
 ![Screenshot of Obsidian frontmatter of a daily note in reading view while changing property type of metadata.](/assets/images/pages/obsidian-phd-vault-activity-tracking-editing-reading-view-frontmatter_change_property_annot.png)
 
-## What is Daily notes?
+# What is Daily notes?
 [Daily notes](https://help.obsidian.md/plugins/daily-notes) is a [core plugin](https://help.obsidian.md/plugins) that opens a note based on the date. It can be used to create journal, logs, notebook. For our PhD vault, we will be using it like a digital personal lab notebook. Our [daily notes will be created from a template](https://help.obsidian.md/plugins/daily-notes#Create+a+daily+note+from+template) so it will automatically include the metadata we document on a daily basis. 
 
 # Heatmap like visualization 
