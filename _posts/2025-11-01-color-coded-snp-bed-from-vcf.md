@@ -29,10 +29,10 @@ The error message will look something like this:
 ![Screenshot of terminal with error message listing output files that already exist.](/assets/images/posts/2025-11-01-color-coded-snp-bed-from-vcf-2.png)
 
 Then it will run through the following steps:
-**Step 1:** Split VCF: It splits the input VCF into two new VCF files, one for each allele, and index them.
-**Step 2:** Convert to BED: It takes the two new VCF files and converts them into BED files.
-**Step 3:** Merge BED and Color: It takes the two BED files and merges them into a single, final BED file where the SNPs are color-coded.
-**Step 4:** Validation: Compares the number of variant sites found in the original input VCF file to the total number of sites in the final merged BED file.
+- **Step 1:** Split VCF: It splits the input VCF into two new VCF files, one for each allele, and index them.
+- **Step 2:** Convert to BED: It takes the two new VCF files and converts them into BED files.
+- **Step 3:** Merge BED and Color: It takes the two BED files and merges them into a single, final BED file where the SNPs are color-coded.
+- **Step 4:** Validation: Compares the number of variant sites found in the original input VCF file to the total number of sites in the final merged BED file.
 
 The output in the terminal will look something like this:
 ![Screenshot of terminal with print statments from running the script.](/assets/images/posts/2025-11-01-color-coded-snp-bed-from-vcf-3.png)
@@ -42,11 +42,11 @@ Currently, the color correspond to Allele 1 = green, Allele 2 = orange and homoz
 ![Screenshot of IGV zoomed in to some color-coded SNPs and VCF SNPs.](/assets/images/posts/2025-11-01-color-coded-snp-bed-from-vcf-4.png)
 
 The following output files will be created based on the input basename:
-`<prefix>_h1.vcf.gz`
-`<prefix>_h2.vcf.gz`
-`<prefix>_h1_vcf.bed.gz`
-`<prefix>_h2_vcf.bed.gz`
-`<prefix>_vcf_browser.bed.gz`
+- `<prefix>_h1.vcf.gz` 
+- `<prefix>_h2.vcf.gz` 
+- `<prefix>_h1_vcf.bed.gz` 
+- `<prefix>_h2_vcf.bed.gz` 
+- `<prefix>_vcf_browser.bed.gz` 
 (and all corresponding index files)
 
 ---
