@@ -20,7 +20,8 @@ A color-coded variant file where SNPs from each allele are a different color and
 
 # Create the BED files
 
-The script that generates this BED file works on a VCF file that is only single-sample (like from de novo variant calling), phased (separated by haplotype), and diploid (only two alleles). {: .notice--danger}
+The script that generates this BED file works on a VCF file that is only single-sample (like from de novo variant calling), phased (separated by haplotype), and diploid (only two alleles). 
+{: .notice--danger}
 
 When you run the script, it will first check if any of the 5 output files already exist. If they do, it stops and prints an error message along with a `rm` command for you to copy and paste into your terminal. This is to prevent you from accidentally overwriting previous files.
 
@@ -41,12 +42,12 @@ Currently, the color correspond to Allele 1 = green, Allele 2 = orange and homoz
 ![Screenshot of IGV zoomed in to some color-coded SNPs and VCF SNPs.](/assets/images/posts/2025-11-01-color-coded-snp-bed-from-vcf-4.png)
 
 The following output files will be created based on the input basename:
-  `<prefix>_h1.vcf.gz`
-  `<prefix>_h2.vcf.gz`
-  `<prefix>_h1_vcf.bed.gz`
-  `<prefix>_h2_vcf.bed.gz`
-  `<prefix>_vcf_browser.bed.gz`
-  (and all corresponding index files)
+`<prefix>_h1.vcf.gz`
+`<prefix>_h2.vcf.gz`
+`<prefix>_h1_vcf.bed.gz`
+`<prefix>_h2_vcf.bed.gz`
+`<prefix>_vcf_browser.bed.gz`
+(and all corresponding index files)
 
 ---
 
@@ -59,10 +60,11 @@ You can create an environment using `conda` by running:
 conda create -n vcf_env -c bioconda -c conda-forge cyvcf2 pandas htslib
 ```
 Here are the versions that work with this script (at time writing this):
-| Package    | Version |
-| ---------- | ------- |
-| **cyvcf2** | 0.11.7  |
-| **pandas** | 1.3.5   |
+
+| Package             | Version |
+| ----------          | ------- |
+| **cyvcf2**          | 0.11.7  |
+| **pandas**          | 1.3.5   |
 | **tabix** (htslib)  | 1.20    |
 | **bgzip** (htslib)  | 1.20    |
 
