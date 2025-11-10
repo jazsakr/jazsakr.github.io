@@ -26,17 +26,29 @@ gallery_volcano:
   - url: https://jazsakr.github.io/plots/volcano-plot-example2/
     image_path: /assets/images/posts/2025-10-28-volcano-plot-example2.png
     alt: "A volcano plot with up and down regulated genes highlighted"
+gallery_violin:
+  - url: https://jazsakr.github.io/plots/violin-plot-example1/
+    image_path: /assets/images/posts/2025-11-09-violin-plot-example1.png
+    alt: "A violin plot"
+---
+
+**Bar plot**
+
+{% include gallery id="gallery_boxplot" caption="Click on the bar plot to get the code." %}
+
 ---
 
 **Venn diagrams**
 
 {% include gallery id="gallery_venn" caption="Click on the Venn diagram plot to get the code." %}
 
+---
 
-**Bar plot**
+**Violin plot**
 
-{% include gallery id="gallery_boxplot" caption="Click on the bar plot to get the code." %}
+{% include gallery id="gallery_violin" caption="Click on the violin plot to get the code." %}
 
+---
 
 **Volcano plot**
 

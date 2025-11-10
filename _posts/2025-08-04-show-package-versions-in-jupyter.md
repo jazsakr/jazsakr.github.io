@@ -5,10 +5,11 @@ date: 2025-08-04
 header:
   teaser: /assets/images/posts/2025-08-04-show-package-versions-in-jupyter-thumbnail.png
 categories:
-  - bioinformatics
+  - coding
 tags:
   - bioinformatics
   - coding
+  - python
   - tip
 ---
 
