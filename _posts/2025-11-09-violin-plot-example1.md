@@ -15,7 +15,7 @@ tags:
 
 ![Plot of a violin plot made with using matplotlib and seaborn.](/assets/images/posts/2025-11-09-violin-plot-example1.png)
 
-Define `var` and update `sample_info` dictionary according to your dataframe to use this code.
+Define `var` and update `sample_info` dictionary according to your dataframe to use this code. This code will also show statistics (count, mean, std, min, quartiles, max) of your data.
 
 The violin plot:
 
