@@ -20,7 +20,7 @@ A color-coded variant file where SNPs from each allele are a different color and
 
 # Create the BED files
 
-The script that generates this BED file works on a VCF file that is only single-sample (like from de novo variant calling), phased (separated by haplotype), and diploid (only two alleles). 
+The script that generates this BED file works on a VCF file that is only single-sample (like from *de novo* variant calling), phased (separated by haplotype), and diploid (only two alleles). 
 {: .notice--danger}
 
 When you run the script, it will first check if any of the 5 output files already exist. If they do, it stops and prints an error message along with a `rm` command for you to copy and paste into your terminal. This is to prevent you from accidentally overwriting previous files.
@@ -78,4 +78,4 @@ conda activate vcf_env
 python split_vcf_convert_to_bed.py phased_merge_output.vcf.gz
 ```
 
-Get the python code in `split_vcf_convert_to_bed.py` [here](https://github.com/jazsakr/some_bioinformatics/blob/main/code/split_vcf_convert_to_bed.py){: .btn .btn--inverse}
+Get the python code in `split_vcf_convert_to_bed.py` [here](https://github.com/jazsakr/some_bioinformatics/blob/main/code/split_vcf_convert_to_bed.py){: .btn .btn--inverse}.
