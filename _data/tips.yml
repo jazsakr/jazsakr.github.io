@@ -12,3 +12,4 @@
 - If you are connecting to a remote server and will run a  command that will take a long time to finish, start a `screen` or `tmux` session first so that if your connection drops, the command will keep running and you can reconnect to it later.
 - "Making stock solutions from salts/powder? Use <a href='https://www.promega.com/resources/tools/biomath/molarity-calculator/'>this calculator</a> to figure out how many grams you need."
 - Make stock solutions for new protocols before the day of the experiment. Some stock solutions may take time to fully dissolve and may even need to be warmed up or mixed overnight.
+- "macOS tip: Reading a paper online and you can't remember if you saved it to Zotero or not? Use the <a href='https://www.alfredapp.com/'>Alfred</a> workflow <a href='https://alfred.app/workflows/giovanni/zothero/'>ZotHero</a> to quickly check."
