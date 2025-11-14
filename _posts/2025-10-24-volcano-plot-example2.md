@@ -51,23 +51,20 @@ pvalue_df =  degs_df[(degs_df["pvalue"] <= pvalue) & (abs(degs_df["log2FoldChang
 sig_up = pvalue_df[pvalue_df["log2FoldChange"] > 0]
 sig_down = pvalue_df[pvalue_df["log2FoldChange"] < 0]
 
-# Disease subset genes (by regex pattern)
-degs_subset_df = degs_df[degs_df["gene_name"].str.contains(subset_names_pattern, regex=True, na=False)]
-degs_subset_df = degs_subset_df[~degs_subset_df["gene_name"].str.contains(subset_drop_names_pattern, regex=True, na=False)]
-pvalue_subset_df = degs_subset_df[(degs_subset_df["pvalue"] <= pvalue) & (abs(degs_subset_df["log2FoldChange"]) >= logfc)]
-
 # Plotting
 fig, ax = plt.subplots(figsize=(7, 7))
 
+dot_size=10
+
 # Plot each group of genes
 group0_title=f'Not significant genes (n={len(degs_df)})'
-sns.scatterplot(data=degs_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='grey', label = group0_title, s=10)
+sns.scatterplot(data=degs_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='grey', label = group0_title, s=dot_size)
 
 group_up_title = f'Upregulated genes (n={len(sig_up)})'
-sns.scatterplot(data=sig_up, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='red', label=group_up_title, s=10)
+sns.scatterplot(data=sig_up, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='red', label=group_up_title, s=dot_size)
 
 group_down_title = f'Downregulated genes (n={len(sig_down)})'
-sns.scatterplot(data=sig_down, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='blue', label=group_down_title, s=10)
+sns.scatterplot(data=sig_down, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='blue', label=group_down_title, s=dot_size)
 
 plt.xlabel(f'log2FoldChange', fontsize=14)
 plt.ylabel(f'-log10(p-value)', fontsize=14)

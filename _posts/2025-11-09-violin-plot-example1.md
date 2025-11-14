@@ -83,7 +83,7 @@ summary_stats = melted_df.groupby('Sample')["Percent"].describe().reset_index()
 # Replace spaces with line breaks in x-axis labels
 ax = plt.gca()
 new_labels = [label.get_text().replace(' ', '\n') for label in ax.get_xticklabels()]
-ax.set_xticklabels(new_labels, fontsize=12)
+ax.set_xticklabels(new_labels)
 
 # Titles and labels
 plt.title(fig_title, fontsize=14)

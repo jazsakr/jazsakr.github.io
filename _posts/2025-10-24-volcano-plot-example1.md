@@ -74,18 +74,20 @@ pvalue_subset_df = degs_subset_df[(degs_subset_df["pvalue"] <= pvalue) & (abs(de
 # Plotting
 fig, ax = plt.subplots(figsize=(7, 8))
 
+dot_size=10
+
 # Plot each group of genes
 group0_title=f'Not significant genes (n={len(degs_df)})'
-sns.scatterplot(data=degs_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='grey', label = group0_title, s=10)
+sns.scatterplot(data=degs_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='grey', label = group0_title, s=dot_size)
 
 group1_title=f'Significant genes (n={len(pvalue_df)})'
-sns.scatterplot(data=pvalue_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='cyan', label = group1_title, s=10)
+sns.scatterplot(data=pvalue_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.5, color='cyan', label = group1_title, s=dot_size)
 
 group2_title=f'Not significant disease genes (n={len(degs_subset_df)})'
-sns.scatterplot(data=degs_subset_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.7, color='black', label = group2_title, s=10)
+sns.scatterplot(data=degs_subset_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.7, color='black', label = group2_title, s=dot_size)
 
 group3_title=f'Significant disease genes (n={len(pvalue_subset_df)})'
-sns.scatterplot(data=pvalue_subset_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.9, color='red', label = group3_title, s=10)
+sns.scatterplot(data=pvalue_subset_df, x='log2FoldChange', y='neg_log10_pval', alpha=0.9, color='red', label = group3_title, s=dot_size)
 
 plt.xlabel(f'log2FoldChange', fontsize=14)
 plt.ylabel(f'-log10(p-value)', fontsize=14)
