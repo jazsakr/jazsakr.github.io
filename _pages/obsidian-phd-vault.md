@@ -17,6 +17,8 @@ Download an example Obsidian PhD vault from [this GitHub repo](https://github.co
 
 ## Tracking Productivity 
 
+When I joined my PhD lab, I was purely a wet lab scientist. I was fortunate enough to join a genomics lab where we analyze our own generated data. Soon, I learned dry lab and bioinformatics. Then I found myself wondering how I spend my time between dry lab and wet lab. I visualized this using my Daily notes and heatmap calender plugin. Here is an example of what that might look like for student in the last year of their PhD.
+
 ![Preview of a productivity log in an Obsidian PhD vault](/assets/images/preview/obsidian-phd-vault-preview-productivity-log1.png)
 
 [Read more here!](https://jazsakr.github.io/obsidian-phd-vault/activity-tracking/){: .btn .btn--success}
