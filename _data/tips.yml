@@ -9,7 +9,8 @@
 - "Keep track of all your terminal shortcuts by creating a shortcut to show all of them (<a href='https://jazsakr.github.io/macos/shortcut-for-terminal-shortcuts/'>read more</a>)."
 - Keep as many variables as possible at the top of your code so that not only are they easy to find, but you only have to edit them once and it is consistent throughout your code.
 - Keep track of package versions used in your analysis by saving them into a log file when you run your scripts. 
-- If you are connecting to a remote server and will run a  command that will take a long time to finish, start a `screen` or `tmux` session first so that if your connection drops, the command will keep running and you can reconnect to it later.
+- If you are connecting to a remote server and will run a command that will take a long time to finish, start a `screen` or `tmux` session first so that if your connection drops, the command will keep running and you can reconnect to it later.
 - "Making stock solutions from salts/powder? Use <a href='https://www.promega.com/resources/tools/biomath/molarity-calculator/'>this calculator</a> to figure out how many grams you need."
 - Make stock solutions for new protocols before the day of the experiment. Some stock solutions may take time to fully dissolve and may even need to be warmed up or mixed overnight.
 - "macOS tip: Reading a paper online and you can't remember if you saved it to <a href='https://www.zotero.org/'>Zotero</a> or not? Use the <a href='https://www.alfredapp.com/'>Alfred</a> workflow <a href='https://alfred.app/workflows/giovanni/zothero/'>ZotHero</a> to quickly check."
+- "Add <a href='https://jazsakr.github.io/obsidian/obsidian-frontmatter/'>metatdata to your Obsidian notes using a frontmatter</a> to have the ability to parse, search, filter and organize your notes very quickly and efficiently with Obsidian's core features as well as with community plug-ins."
