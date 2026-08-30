@@ -30,6 +30,10 @@ gallery_violin:
   - url: https://jazsakr.github.io/plots/violin-plot-example1/
     image_path: /assets/images/posts/2025-11-09-violin-plot-example1.png
     alt: "A violin plot"
+gallery_timeline:
+  - url: https://jazsakr.github.io/plots/gnatt-chart-example1/
+    image_path: /assets/images/posts/2026-08-30-gantt-chart-example1-2.png
+    alt: "A Gantt chart"
 ---
 
 **Bar plot**
@@ -53,3 +57,9 @@ gallery_violin:
 **Volcano plot**
 
 {% include gallery id="gallery_volcano" caption="Click on the volcano plot to get the code." %}
+
+---
+
+**Timelines**
+
+{% include gallery id="gallery_timeline" caption="Click on the timeline to get the code." %}
