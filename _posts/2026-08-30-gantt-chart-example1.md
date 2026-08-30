@@ -17,8 +17,17 @@ tags:
 **NOTE**: You may also need to have the latest version of `nbformat` and `kaleido` installed.
 
 ```python
+import time
+import warnings
+warnings.filterwarnings('ignore')
 import pandas as pd
+print("pandas " + pd.__version__)
+import plotly
 import plotly.express as px
+print("plotly " + plotly.__version__)
+
+todays_date = time.strftime("%Y-%m-%d")
+print(f'\nDate: {todays_date}')
 
 df = pd.DataFrame([
   dict(Task="Task 1", Start='2026-06-26', Finish='2026-07-08', Resource="Color 1"),
@@ -73,8 +82,17 @@ To override this, we must set an explicit order and reverse it. While we are at 
 ![Plot of barplot-like timeline with a specified order using Gantt chart in plotly.](/assets/images/posts/2026-08-30-gantt-chart-example1-2.png)
 
 ```python
+import time
+import warnings
+warnings.filterwarnings('ignore')
 import pandas as pd
+print("pandas " + pd.__version__)
+import plotly
 import plotly.express as px
+print("plotly " + plotly.__version__)
+
+todays_date = time.strftime("%Y-%m-%d")
+print(f'\nDate: {todays_date}')
 
 df = pd.DataFrame([
   dict(Task="Task 1", Start='2026-06-26', Finish='2026-07-08', Resource="Color 1"),
