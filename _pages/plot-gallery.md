@@ -34,6 +34,10 @@ gallery_timeline:
   - url: https://jazsakr.github.io/plots/gnatt-chart-example1/
     image_path: /assets/images/posts/2026-08-30-gantt-chart-example1-2.png
     alt: "A Gantt chart"
+gallery_pca:
+  - url: https://jazsakr.github.io/plots/pca-plot-example1/
+    image_path: /assets/images/posts/2026-10-14-pca-plot-example1.png
+    alt: "A PCA plot"
 ---
 
 **Bar plot**
@@ -63,3 +67,9 @@ gallery_timeline:
 **Timelines**
 
 {% include gallery id="gallery_timeline" caption="Click on the timeline to get the code." %}
+
+---
+
+**PCA plot**
+
+{% include gallery id="gallery_pca" caption="Click on the PCA plot to get the code." %}
