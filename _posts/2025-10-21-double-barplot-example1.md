@@ -15,18 +15,27 @@ tags:
 
 ![Plot of a a grouped bar plot with two subplots using matplotlib and seaborn.](/assets/images/posts/2025-10-21-double-barplot-example1.png)
 
+The following code works with these package versions: 
+pandas: **3.0.5**
+seaborn: **0.13.2**
+matplotlib: **3.11.1**
+
 ```python
 import time
 import pandas as pd
 print("pandas: " + pd.__version__)
+
 import seaborn as sns
 print("seaborn: " + sns.__version__)
+
 import matplotlib
 import matplotlib.pyplot as plt
 # embed plots in notebook
 %matplotlib inline
 print("matplotlib: " + matplotlib.__version__)
-print(time.strftime("%Y-%m-%d"))
+
+todays_date = time.strftime("%Y-%m-%d")
+print(f'\nDate: {todays_date}')
 
 data = {
     "sample": ["control", "control", "disease", "disease", "control", "control", "disease", "disease"],
